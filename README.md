@@ -77,7 +77,7 @@ The majority of the questions were collected from:
 
    The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
 
-       ls -a <directory>
+   <code>ls -a <directory></code>
 
 * What is the Unix/Linux command to remove a directory and its contents?
 
