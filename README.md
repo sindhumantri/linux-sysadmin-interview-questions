@@ -66,15 +66,15 @@ Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikiped
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
-* What is the name and the UID of the administrator user?
+*What is the name and the UID of the administrator user?*
 The administrator on Linux systems is called "root".  Root's UID is 0.
 
-* How to list all files, including hidden one, in a directory?
+*How to list all files, including hidden one, in a directory?*
 The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
 
     ls -a <directory>
 
-* What is the Unix/Linux command to remove a directory and its contents?
+*What is the Unix/Linux command to remove a directory and its contents?*
 The _rmdir_ command removes EMPTY directories:
 
     rmdir <directory>
@@ -83,7 +83,7 @@ The _rm_ command can be used with the _-r_ flag to remove a directory AND it's c
 
     rm -r <directory>
 
-* Which command will show you free/used memory? Does free memory exist on Linux?
+*Which command will show you free/used memory? Does free memory exist on Linux?*
 The _free_ command will show you the free/used memory on a system, with output like:
 
                  total       used       free     shared    buffers     cached
