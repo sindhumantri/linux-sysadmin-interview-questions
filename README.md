@@ -67,35 +67,35 @@ Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikiped
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
 * What is the name and the UID of the administrator user?
-> The administrator on Linux systems is called "root".  Root's UID is 0.
+The administrator on Linux systems is called "root".  Root's UID is 0.
 
 * How to list all files, including hidden one, in a directory?
-> The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
->
+The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
+
     ls -a \<directory\>
 
 * What is the Unix/Linux command to remove a directory and its contents?
-> The _rmdir_ command removes EMPTY directories:
->
+The _rmdir_ command removes EMPTY directories:
+
     rmdir \<directory\>
->
-> The _rm_ command can be used with the _-r_ flag to remove a directory AND it's contents:
->
+
+The _rm_ command can be used with the _-r_ flag to remove a directory AND it's contents:
+
     rm -r \<directory\>
 
 * Which command will show you free/used memory? Does free memory exist on Linux?
-> The _free_ command will show you the free/used memory on a system, with output like:
->
+The _free_ command will show you the free/used memory on a system, with output like:
+
                  total       used       free     shared    buffers     cached
     Mem:       8128884    7171252     957632      14096        108    4010944
     -/+ buffers/cache:    3160200    4968684
     Swap:      3906556      51644    3854912
 
-> The second line (Mem:) lists the memory usage.  "total" refers to the whole amount of RAM installed in the system. "free" is the amount of RAM not being used for anything.   
->
-> Linux can borrow a large amount of free memory to use for buffering and disk caching.  This is done to speed up the system in general, but does NOT mean the system is low on free memory.  If more memory is needed for the processes on the system, they just use the memory allocated to disk cache.
->
-> Further Reading: [http://www.linuxatemyram.com/](http://www.linuxatemyram.com/)
+The second line (Mem:) lists the memory usage.  "total" refers to the whole amount of RAM installed in the system. "free" is the amount of RAM not being used for anything.   
+
+Linux can borrow a large amount of free memory to use for buffering and disk caching.  This is done to speed up the system in general, but does NOT mean the system is low on free memory.  If more memory is needed for the processes on the system, they just use the memory allocated to disk cache.
+
+Further Reading: [http://www.linuxatemyram.com/](http://www.linuxatemyram.com/)
 
 * How to search for the string "my konfi is the best" in files of a directory recursively?
 * How to connect to a remote server or what is SSH?
