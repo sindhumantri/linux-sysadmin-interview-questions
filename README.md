@@ -40,23 +40,23 @@ The majority of the questions were collected from:
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * What function does DNS play on a network?
-> DNS, or Domain Name System, associates domain names to entities in the system.  The widest used example is translating domain names to IP addresses, in order to locate devices.  For example, when asked what www.exmaple.org is, DNS will respond with 93.184.216.119, the IP of that domain.
->
-> Further Reading: [https://en.wikipedia.org/wiki/Dns](https://en.wikipedia.org/wiki/Dns)
+DNS, or Domain Name System, associates domain names to entities in the system.  The widest used example is translating domain names to IP addresses, in order to locate devices.  For example, when asked what www.exmaple.org is, DNS will respond with 93.184.216.119, the IP of that domain.
+
+Further Reading: [https://en.wikipedia.org/wiki/Dns](https://en.wikipedia.org/wiki/Dns)
 
 * What is HTTP?
-> HTTP, or Hypertext Transfer Protocol, is "an application protocol for distributed, collaborative, hypermedia information systems (Wikipedia)", and is the foundation of the World Wide Web (distinct from the Internet as a whole).  In the context of System Administration, HTTP is related to the applications or services that handle that protocol, most notably web servers like Apache or Nginx (among others).
->
-> Further Reading: [https://en.wikipedia.org/wiki/Http](https://en.wikipedia.org/wiki/Http)
+HTTP, or Hypertext Transfer Protocol, is "an application protocol for distributed, collaborative, hypermedia information systems (Wikipedia)", and is the foundation of the World Wide Web (distinct from the Internet as a whole).  In the context of System Administration, HTTP is related to the applications or services that handle that protocol, most notably web servers like Apache or Nginx (among others).
+
+Further Reading: [https://en.wikipedia.org/wiki/Http](https://en.wikipedia.org/wiki/Http)
 
 * What is an HTTP proxy and how does it work?
-> There are two types of proxies that are likely to be considered an HTTP Proxy - forward proxy and reverse proxy.
->
-> A forward proxy takes HTTP requests (web traffic) from a host on an internal network, and forwards them out to the internet.  This can be done for various reasons, such as providing web access to hosts that don't have a direct route out, or for monitoring the traffic of the users on the network, or more.
->
-> A reverse proxy takes HTTP requests coming in from the internet and delivers them to a web server inside the network.  Some reasons for using a reverse proxy are to protect the webserver from the internet in general, to allow multiple webservers to serve content for one domain, to cache static content or compress the content being served by the webserver, etc.
->
-> Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikipedia.org/wiki/Proxy_server)
+There are two types of proxies that are likely to be considered an HTTP Proxy - forward proxy and reverse proxy.
+
+A forward proxy takes HTTP requests (web traffic) from a host on an internal network, and forwards them out to the internet.  This can be done for various reasons, such as providing web access to hosts that don't have a direct route out, or for monitoring the traffic of the users on the network, or more.
+
+A reverse proxy takes HTTP requests coming in from the internet and delivers them to a web server inside the network.  Some reasons for using a reverse proxy are to protect the webserver from the internet in general, to allow multiple webservers to serve content for one domain, to cache static content or compress the content being served by the webserver, etc.
+
+Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikipedia.org/wiki/Proxy_server)
 
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP!
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
