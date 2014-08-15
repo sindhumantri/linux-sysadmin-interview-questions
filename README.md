@@ -75,28 +75,28 @@ The majority of the questions were collected from:
 
 * How to list all files, including hidden one, in a directory?
 
-   The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
+   The `ls` command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the `-a` flag:
 
    `ls -a <directory>`
 
 * What is the Unix/Linux command to remove a directory and its contents?
 
-   The _rmdir_ command removes EMPTY directories:
+   The `rmdir` command removes EMPTY directories:
 
-    rmdir <directory>
+   `rmdir <directory>`
 
-   The _rm_ command can be used with the _-r_ flag to remove a directory AND it's contents:
+   The `rm` command can be used with the `-r` flag to remove a directory AND it's contents:
 
-    rm -r <directory>
+    `rm -r <directory>`
 
 * Which command will show you free/used memory? Does free memory exist on Linux?
 
-   The _free_ command will show you the free/used memory on a system, with output like:
+   The `free` command will show you the free/used memory on a system, with output like:
 
-                 total       used       free     shared    buffers     cached
-    Mem:       8128884    7171252     957632      14096        108    4010944
-    -/+ buffers/cache:    3160200    4968684
-    Swap:      3906556      51644    3854912
+   `             total       used       free     shared    buffers     cached`
+   `Mem:       8128884    7171252     957632      14096        108    4010944`
+   `-/+ buffers/cache:    3160200    4968684`
+   `Swap:      3906556      51644    3854912`
 
    The second line (Mem:) lists the memory usage.  "total" refers to the whole amount of RAM installed in the system. "free" is the amount of RAM not being used for anything.   
 
