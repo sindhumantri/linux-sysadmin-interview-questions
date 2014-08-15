@@ -1,7 +1,7 @@
 Linux System Administrator/DevOp Interview Questions
 ====================================================
 
-A list of Linux Sysadmin/DevOPs questions and answers based on the Interview Questions compiled by [https://github.com/chassing/linux-sysadmin-interview-questions](https://github.com/chassing/linux-sysadmin-interview-questions), intended to assist current and future Sysadmins/DevOPs in learing the craft.
+A list of Linux Sysadmin/DevOPs questions and answers based on the Interview Questions compiled by [https://github.com/chassing/linux-sysadmin-interview-questions](https://github.com/chassing/linux-sysadmin-interview-questions), intended to assist current and future Sysadmins/DevOPs in learning the craft.
 
 Feel free to contribute via pull requests, issues or email messages.
 
