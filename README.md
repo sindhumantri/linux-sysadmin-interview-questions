@@ -40,23 +40,26 @@ The majority of the questions were collected from:
 ####[[⬆]](#toc) <a name='general'>General Questions:</a>
 
 * What function does DNS play on a network?
-DNS, or Domain Name System, associates domain names to entities in the system.  The widest used example is translating domain names to IP addresses, in order to locate devices.  For example, when asked what www.exmaple.org is, DNS will respond with 93.184.216.119, the IP of that domain.
 
-Further Reading: [https://en.wikipedia.org/wiki/Dns](https://en.wikipedia.org/wiki/Dns)
+   DNS, or Domain Name System, associates domain names to entities in the system.  The widest used example is translating domain names to IP addresses, in order to locate devices.  For example, when asked what www.exmaple.org is, DNS will respond with 93.184.216.119, the IP of that domain.
+
+   Further Reading: [https://en.wikipedia.org/wiki/Dns](https://en.wikipedia.org/wiki/Dns)
 
 * What is HTTP?
-HTTP, or Hypertext Transfer Protocol, is "an application protocol for distributed, collaborative, hypermedia information systems (Wikipedia)", and is the foundation of the World Wide Web (distinct from the Internet as a whole).  In the context of System Administration, HTTP is related to the applications or services that handle that protocol, most notably web servers like Apache or Nginx (among others).
 
-Further Reading: [https://en.wikipedia.org/wiki/Http](https://en.wikipedia.org/wiki/Http)
+   HTTP, or Hypertext Transfer Protocol, is "an application protocol for distributed, collaborative, hypermedia information systems (Wikipedia)", and is the foundation of the World Wide Web (distinct from the Internet as a whole).  In the context of System Administration, HTTP is related to the applications or services that handle that protocol, most notably web servers like Apache or Nginx (among others).
+
+   Further Reading: [https://en.wikipedia.org/wiki/Http](https://en.wikipedia.org/wiki/Http)
 
 * What is an HTTP proxy and how does it work?
-There are two types of proxies that are likely to be considered an HTTP Proxy - forward proxy and reverse proxy.
 
-A forward proxy takes HTTP requests (web traffic) from a host on an internal network, and forwards them out to the internet.  This can be done for various reasons, such as providing web access to hosts that don't have a direct route out, or for monitoring the traffic of the users on the network, or more.
+   There are two types of proxies that are likely to be considered an HTTP Proxy - forward proxy and reverse proxy.
 
-A reverse proxy takes HTTP requests coming in from the internet and delivers them to a web server inside the network.  Some reasons for using a reverse proxy are to protect the webserver from the internet in general, to allow multiple webservers to serve content for one domain, to cache static content or compress the content being served by the webserver, etc.
+   A forward proxy takes HTTP requests (web traffic) from a host on an internal network, and forwards them out to the internet.  This can be done for various reasons, such as providing web access to hosts that don't have a direct route out, or for monitoring the traffic of the users on the network, or more.
 
-Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikipedia.org/wiki/Proxy_server)
+   A reverse proxy takes HTTP requests coming in from the internet and delivers them to a web server inside the network.  Some reasons for using a reverse proxy are to protect the webserver from the internet in general, to allow multiple webservers to serve content for one domain, to cache static content or compress the content being served by the webserver, etc.
+
+   Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikipedia.org/wiki/Proxy_server)
 
 * What is SMTP? Give the basic scenario of how a mail message is delivered via SMTP!
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
@@ -66,36 +69,40 @@ Further Reading: [https://en.wikipedia.org/wiki/Proxy_server](https://en.wikiped
 
 ####[[⬆]](#toc) <a name='simple'>Simple Linux Questions:</a>
 
-*What is the name and the UID of the administrator user?*
-The administrator on Linux systems is called "root".  Root's UID is 0.
+* What is the name and the UID of the administrator user?
 
-*How to list all files, including hidden one, in a directory?*
-The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
+   The administrator on Linux systems is called "root".  Root's UID is 0.
+
+* How to list all files, including hidden one, in a directory?
+
+   The _ls_ command lists files.  To list all files, including hidden one ("dotfiles" - or those that start with a "."), you use the _-a_ flag:
 
     ls -a <directory>
 
-*What is the Unix/Linux command to remove a directory and its contents?*
-The _rmdir_ command removes EMPTY directories:
+* What is the Unix/Linux command to remove a directory and its contents?
+
+   The _rmdir_ command removes EMPTY directories:
 
     rmdir <directory>
 
-The _rm_ command can be used with the _-r_ flag to remove a directory AND it's contents:
+   The _rm_ command can be used with the _-r_ flag to remove a directory AND it's contents:
 
     rm -r <directory>
 
-*Which command will show you free/used memory? Does free memory exist on Linux?*
-The _free_ command will show you the free/used memory on a system, with output like:
+* Which command will show you free/used memory? Does free memory exist on Linux?
+
+   The _free_ command will show you the free/used memory on a system, with output like:
 
                  total       used       free     shared    buffers     cached
     Mem:       8128884    7171252     957632      14096        108    4010944
     -/+ buffers/cache:    3160200    4968684
     Swap:      3906556      51644    3854912
 
-The second line (Mem:) lists the memory usage.  "total" refers to the whole amount of RAM installed in the system. "free" is the amount of RAM not being used for anything.   
+   The second line (Mem:) lists the memory usage.  "total" refers to the whole amount of RAM installed in the system. "free" is the amount of RAM not being used for anything.   
 
-Linux can borrow a large amount of free memory to use for buffering and disk caching.  This is done to speed up the system in general, but does NOT mean the system is low on free memory.  If more memory is needed for the processes on the system, they just use the memory allocated to disk cache.
+   Linux can borrow a large amount of free memory to use for buffering and disk caching.  This is done to speed up the system in general, but does NOT mean the system is low on free memory.  If more memory is needed for the processes on the system, they just use the memory allocated to disk cache.
 
-Further Reading: [http://www.linuxatemyram.com/](http://www.linuxatemyram.com/)
+   Further Reading: [http://www.linuxatemyram.com/](http://www.linuxatemyram.com/)
 
 * How to search for the string "my konfi is the best" in files of a directory recursively?
 * How to connect to a remote server or what is SSH?
