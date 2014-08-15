@@ -93,10 +93,10 @@ The majority of the questions were collected from:
 
    The `free` command will show you the free/used memory on a system, with output like:
 
-   `             total       used       free     shared    buffers     cached`
-   `Mem:       8128884    7171252     957632      14096        108    4010944`
-   `-/+ buffers/cache:    3160200    4968684`
-   `Swap:      3906556      51644    3854912`
+                 total       used       free     shared    buffers     cached
+    Mem:       8128884    7171252     957632      14096        108    4010944
+    -/+ buffers/cache:    3160200    4968684
+    Swap:      3906556      51644    3854912
 
    The second line (Mem:) lists the memory usage.  "total" refers to the whole amount of RAM installed in the system. "free" is the amount of RAM not being used for anything.   
 
